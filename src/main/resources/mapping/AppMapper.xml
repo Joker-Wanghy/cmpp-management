@@ -260,7 +260,7 @@
 				pay_type = #{payType,jdbcType=INTEGER},
 			</if>
 			<if test="channel != null">
-				channel = #{channel,jdbcType=VARCHAR}
+				channel = #{channel,jdbcType=VARCHAR},
 			</if>
 			<if test="MaxConnection != null">
 				max_connection = #{MaxConnection,jdbcType=INTEGER}
